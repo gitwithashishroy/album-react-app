@@ -1,0 +1,78 @@
+
+
+.albumCard {
+    /* border: 2px solid black; */
+    background-color: lavender;
+    /* background-color: aliceblue; */
+    width: 375px;
+    height: 100px;
+    margin: 15px;
+    padding: 10px;
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px ;
+  }
+
+.albumCardTitle{
+    color : green ; 
+    font-weight: 600px;
+}
+
+.albumActionName{
+    display: flex ; 
+    justify-content: space-between;
+}
+
+.albumUpdateButton{
+    background-color: lightgreen;
+    font-size: 15px;
+    font-weight: 600;
+    border: none ;
+    border-radius: 5px ;
+    padding: 5px;
+    cursor: pointer;
+    color: black ;
+}
+
+.albumDeleteButton{
+    background-color: coral ;
+    font-size: 15px;
+    font-weight: 600;
+    border: none ;
+    border-radius: 8px ;
+    padding: 10px;
+    cursor: pointer;
+    color: black  ;
+}
+
+.albumEditButton{
+    background-color: lightgreen  ;
+    font-size: 15px;
+    font-weight: 600;
+    border: none ;
+    border-radius: 8px ;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: black ;
+}
+
+.albumEditButton:hover{
+    color:white ; 
+    background-color: green ;
+}
+
+.albumDeleteButton:hover{
+    color: white  ;
+    background-color: red ;
+}
+
+
+input[type="text"]{
+    border: none ;
+    outline:none ; 
+    padding: 5px ;
+    margin-left: 10px ;
+    font-size: 15px;
+    width: 100%;
+} 
