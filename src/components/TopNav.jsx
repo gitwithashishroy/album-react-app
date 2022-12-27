@@ -15,7 +15,7 @@ const TopNav = () => {
           </div>
 
           <div className={styles.navLeftElem}>
-            <Link className={styles.decoration} to='/home'> Home  </Link>
+            <Link className={styles.decoration} to='/'> Home  </Link>
           </div>
         </div>
 
